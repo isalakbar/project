@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 
 import {MatFormFieldModule} from '@angular/material/form-field';
 import { DashboardComponent } from './dashboard/dashboard/dashboard.component'
+import { NgxParallaxScrollModule } from 'ngx-parallax-scroll';
  
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { DashboardComponent } from './dashboard/dashboard/dashboard.component'
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MatFormFieldModule
+    MatFormFieldModule,
+    NgxParallaxScrollModule
   ],
   providers: [],
   bootstrap: [AppComponent]

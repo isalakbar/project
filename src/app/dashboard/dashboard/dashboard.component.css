@@ -55,10 +55,11 @@ a:hover {
 
 .btn-primary {
 	padding: 12px 50px;
-	border-radius: 0;
-	background: #006699;
-	font-size: 1.2rem;
-	border: 0;
+    border-radius: 0;
+    background: #000000;
+    font-size: 1.2rem;
+    border: 0;
+    color: #ffffff;
 }
 
 .btn-primary:hover {
@@ -128,7 +129,7 @@ hr {
 	padding-bottom: 150px;
 }
 
-.tm-parallax {
+/* .tm-parallax {
 	width: 400px;
 	min-height: 100%;
 	height: auto;
@@ -137,16 +138,18 @@ hr {
 	width: 400px;
 	left: -470px;
 	top: 0;
-}
-/* .tm-parallax imgplx{
+} */
+.tm-parallax .imgplx{
 	width: 400px;
+	min-height: 100%;
 	height: auto;
-	position:absolute;
+	background: transparent;
+	position: absolute;
 	width: 400px;
 	left: -470px;
 	top: 0;
 
-} */
+}
 
 /* Hide scrollbar */
 .tm-sidebar {
@@ -181,7 +184,7 @@ hr {
 	display: none;
 }
 
-.tm-brand-box {
+.tm-brand-box img{
 	width: 240px;
 	height: 180px;
 	background: #006699;
@@ -190,6 +193,7 @@ hr {
 	align-items: center;
 	justify-content: center;
 	margin-bottom: 100px;
+	margin-left: -1.3rem;
 }
 
 

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { IParallaxScrollConfig } from 'ngx-parallax-scroll';
 
 @Component({
   selector: 'app-dashboard',
@@ -6,16 +7,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./dashboard.component.css']
 })
 export class DashboardComponent implements OnInit {
-  // imageparalax1: string;
-  // imageparalax2: string;
-  // imageparalax3: string;
-
-  // // constructor() {
-  // //    //image location
-  // //    this.imageparalax1 = '../../../../portofolio/img/img-01.jpg'
-  // //    this.imageparalax2 = '../../../../portofolio/img/img-02.jpg'
-  // //    this.imageparalax3 = '../../../../portofolio/img'
-  // //  }
+  ngParallaxConf: IParallaxScrollConfig = {
+    parallaxSpeed: 1,
+    parallaxSmoothness: 1,
+    parallaxDirection: 'reverse',
+    parallaxTimingFunction: 'ease-in',
+    parallaxThrottleTime: 80
+  };
      
   ngOnInit(): void {
   }
